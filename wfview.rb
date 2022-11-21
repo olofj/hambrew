@@ -1,8 +1,9 @@
 class Wfview < Formula
   desc "Open Source interface for Icom transceivers"
+  version "1.50-55-b57e4ebd7"
   homepage "https://wfview.org/"
-  url "https://gitlab.com/eliggett/wfview/-/archive/v1.50/wfview-v1.50.tar.gz"
-  sha256 "c1c0835c678b70d8675e1e21d5c26263efbed7b117912ba81d60a6c301e2786c"
+  url "https://gitlab.com/eliggett/wfview/-/archive/b57e4ebd769bf551372e0432da02ea8bcbb13a82/wfview-b57e4ebd769bf551372e0432da02ea8bcbb13a82.tar.gz"
+  sha256 "5d986ef4c40be876d616f428228f0bfad31ab3be39ae2ba18e7f32c00c75e82f"
   license "GPL-3.0-only"
 
   depends_on "eigen"
