@@ -49,7 +49,7 @@ end
 
 __END__
 diff --git a/wfview.pro b/wfview.pro
-index ce40277..8cd16d1 100644
+index ce40277..782de40 100644
 --- a/wfview.pro
 +++ b/wfview.pro
 @@ -41,11 +41,12 @@ win32:DEFINES += __WINDOWS_WASAPI__
@@ -76,16 +76,16 @@ index ce40277..8cd16d1 100644
 -macx:LIBS += -L/usr/local/lib -L/opt/local/lib
 -
 -macx:ICON = ../wfview/resources/wfview.icns
-+macx:ICON = wfview/resources/wfview.icns
++macx:ICON = resources/wfview.icns
  win32:RC_ICONS = ../wfview/resources/wfview.ico
 -QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.13
  QMAKE_TARGET_BUNDLE_PREFIX = org.wfview
  MY_ENTITLEMENTS.name = CODE_SIGN_ENTITLEMENTS
 -MY_ENTITLEMENTS.value = ../wfview/resources/wfview.entitlements
-+MY_ENTITLEMENTS.value = wfview/resources/wfview.entitlements
++MY_ENTITLEMENTS.value = resources/wfview.entitlements
  QMAKE_MAC_XCODE_SETTINGS += MY_ENTITLEMENTS
 -QMAKE_INFO_PLIST = ../wfview/resources/Info.plist
-+QMAKE_INFO_PLIST = wfview/resources/Info.plist
++QMAKE_INFO_PLIST = resources/Info.plist
  
  !win32:DEFINES += HOST=\\\"`hostname`\\\" UNAME=\\\"`whoami`\\\"
  
